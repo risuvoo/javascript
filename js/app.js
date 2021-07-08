@@ -276,6 +276,22 @@ function asyncronusConcept(){
             console.log(`${suvo}`);
         }
 
+
+//============= ES6 new features end==============
+
+//===============What is  .map(), .filter(), .reduce() and .sort() ============
+
+// map() method 
+
+        /* syntax : map(callback(currentValue,index,array),thisArg); */
+        var arr = [
+            {name:'note 7',price:3000},
+            {name:'samsung',price:4000},
+        ];
+        var newArr = arr.map(value => value.name);
+        console.log(newArr[0]);
+// filter() method 
+
             
 
 

@@ -8,7 +8,15 @@
     <title>Welcome to Tail-Mixed</title>
 </head>
 <body>
-
-<script type="module" src="js/app.js"></script>
+    <form action="#" name="myForm" method="POST">
+        name: <input type="text" name="name" id="">
+        email: <input type="email" name="email" id="">
+        <input value="set data" type="button" name="setData" onclick="setDataForm()">
+        <input  value="get data" type="button" onclick="getDataForm()" name="getData">
+    </form>
+    <script type="module" src="js/app.js"></script>
+    <script type="text/javascript" src="js/appCookies.js"></script>
+    <script type="text/javascript" src="js/appLocalStorage.js"></script>
+    <script type="text/javascript" src="js/sessionStorage.js"></script>
 </body>
 </html>
