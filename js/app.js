@@ -92,6 +92,7 @@ function asyncronusConcept(){
                 function globalThis(){
                     globalThis.setTimeout(()=>{ console.log('hello')},3000);
                 }
+                globalThis()
 
         //2. BigInt
                 function BigInt(){
